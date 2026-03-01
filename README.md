@@ -1,6 +1,7 @@
 # ServerDash
 
-ServerDash is a self-hosted web dashboard for managing a Linux server. It provides a secure web UI to monitor the system, manage Docker containers, cron jobs, users, services, firewall rules, view logs, and open a web terminal.
+ServerDash is a self-hosted web dashboard for managing a Linux server. 
+It provides a secure web UI to monitor the system, manage Docker containers, cron jobs, users, services, firewall rules, view logs, and open a web terminal.
 
 ## Features
 
@@ -242,4 +243,5 @@ Key environment variables used by the backend (`backend/.env`):
 - Only expose it on trusted networks or behind a VPN / reverse proxy.
 - Change the default admin password directly after the first login.
 - Rotate `JWT_SECRET` and regenerate tokens if you suspect compromise.
+
 
