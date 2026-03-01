@@ -243,6 +243,3 @@ Key environment variables used by the backend (`backend/.env`):
 - Change the default admin password directly after the first login.
 - Rotate `JWT_SECRET` and regenerate tokens if you suspect compromise.
 
-## License
-
-Add your preferred license text here (e.g. MIT, GPL, proprietary).
