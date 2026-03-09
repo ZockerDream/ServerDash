@@ -102,17 +102,9 @@ export default function Sidebar({ onClose }) {
           <ExternalLink size={17} />
           zd-c.com
         </a>
-        <a
-          href="https://nginx.zd-c.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-3 px-3 py-2 rounded-lg text-sm font-medium text-gray-400 hover:text-white hover:bg-gray-800 transition-colors"
-        >
-          <ExternalLink size={17} />
-          NGINX Proxy Manager
-        </a>
         <p className="text-xs text-gray-700 px-3 py-1">ServerDash v1.0 — Ubuntu 24.04</p>
       </div>
     </div>
   );
 }
+
